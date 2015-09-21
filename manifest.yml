@@ -5,7 +5,7 @@ declared-services:
     plan: Shared
     
 applications:
-- name: JavaTwitterInfluencer
+- name: eth-tweet-ana
   memory: 256M #The maximum memory to allocate to each application instance
   instances: 1 #The number of instances of the application to start
   path: bluemix-java-twitter-influence-analyzer.war
